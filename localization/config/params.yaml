@@ -1,0 +1,19 @@
+icp_localization:
+  ros__parameters:
+    voxelSize: 0.05
+    threshold: 0.5
+    iteration_max: 100
+    transformation_init:
+      use_global_loc: False
+      init_trans: [
+        1.0, 0.0, 0.0, 0.0,
+        0.0, 1.0, 0.0, 0.0,
+        0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 1.0
+        ]  
+    relative_fitness: 0.0001
+    relative_rmse: 0.0001
+    icp_normal_rad: 1.5
+
+      
+
