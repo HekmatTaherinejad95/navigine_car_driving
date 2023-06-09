@@ -2,7 +2,7 @@
 
 Install ROS2 (foxy or humble)
 
-clone the repository recursively:
+Clone the repository recursively:
 
 ```
 sudo apt-get install ros-$ROS_DISTRO-nmea_msgs
@@ -18,7 +18,7 @@ source install/setup.bash
 ```
 Connect all the necessary sensors. 
 
-run:
+Run:
 
 ```
 ros2 launch all_package.launch.py
