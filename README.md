@@ -21,7 +21,7 @@ Connect all the necessary sensors.
 Run:
 
 ```
-ros2 launch all_package.launch.py
+ros2 launch ~/ros2_ws/src/all_package.launch.py
 
 ```
 
