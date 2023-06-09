@@ -14,7 +14,7 @@ source /opt/ros/$ROS_DISTRO/setup.bash
 source install/setup.bash
 
 ```
-Connect all the necassary sensors. 
+Connect all the necessary sensors. 
 
 run:
 
