@@ -1,0 +1,16 @@
+[submodule "ros2_wheeltec_n100_imu"]
+	path = ros2_wheeltec_n100_imu
+	url = https://github.com/NDHANA94/ros2_wheeltec_n100_imu.git
+[submodule "serial-ros2"]
+	path = serial-ros2
+	url = https://github.com/RoverRobotics-forks/serial-ros2.git
+[submodule "basler_ros2_driver"]
+	path = basler_ros2_driver
+	url = https://github.com/MobileRoboticsSkoltech/basler_ros2_driver.git
+[submodule "ATGM336H_NMEA_ROS2"]
+	path = ATGM336H_NMEA_ROS2
+	url = https://github.com/NDHANA94/ATGM336H_NMEA_ROS2.git
+[submodule "velodyne"]
+	path = velodyne
+	url = https://github.com/ros-drivers/velodyne.git
+	branch = humble-devel
