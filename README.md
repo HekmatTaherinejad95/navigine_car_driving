@@ -5,7 +5,7 @@ Install ROS2 (foxy or humble)
 Clone the repository recursively:
 
 ```
-sudo apt-get install ros-$ROS_DISTRO-nmea_msgs
+sudo apt-get install ros-$ROS_DISTRO-nmea-msgs
 
 mkdir -p /ros2_ws/src
 cd /ros2_ws/src
