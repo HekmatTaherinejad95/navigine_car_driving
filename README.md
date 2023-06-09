@@ -24,5 +24,9 @@ Run:
 ros2 launch ~/ros2_ws/src/all_package.launch.py
 
 ```
+To record the published topics:
 
+```
+ros2 bag record --all
+```
 
