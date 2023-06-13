@@ -7,9 +7,11 @@ Install ROS2 (tested on humble devision)
 - nmea_msgs: `sudo apt-get install ros-humble-nmea-msgs`
 - install pylon 5.1 from the [link](https://www.baslerweb.com/en/downloads/software-downloads/pylon-5-1-0-linux-x86-64-bit-debian/) 
 
-clone the repository recursively:
+Clone the repository recursively:
 
 ```
+sudo apt-get install ros-$ROS_DISTRO-nmea-msgs
+
 mkdir -p /ros2_ws/src
 cd /ros2_ws/src
 git clone --recursive https://github.com/HekmatTaherinejad95/navigine_car_driving.git
@@ -19,13 +21,17 @@ source /opt/ros/humble/setup.bash
 source install/setup.bash
 
 ```
-Connect all the necassary sensors. 
+Connect all the necessary sensors. 
 
-run:
-
-```
-ros2 launch all_package.launch.py
+Run:
 
 ```
+ros2 launch ~/ros2_ws/src/all_package.launch.py
 
+```
+To record the published topics in a bag file:
+
+```
+ros2 bag record --all
+```
 
