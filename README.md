@@ -10,8 +10,6 @@ Install ROS2 (tested on humble devision)
 Clone the repository recursively:
 
 ```
-sudo apt-get install ros-$ROS_DISTRO-nmea-msgs
-
 mkdir -p /ros2_ws/src
 cd /ros2_ws/src
 git clone --recursive https://github.com/HekmatTaherinejad95/navigine_car_driving.git
